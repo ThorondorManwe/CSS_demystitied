@@ -1,3 +1,71 @@
 /* Font used
-font-family: 'PT Sans', sans-serif; 
+font-family: 'PT Sans', sans-serif;
 */
+:root {
+  --clr-base-400: #fff;
+  --clr-base-500: #171717;
+
+  --clr-accent-400: #59E89C;
+
+  --ff-base: "Open Sans", sans-serif;
+
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-base);
+  background-image: url("assets/hero.jpg");
+  background-size: cover;
+}
+
+.hero {
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.card {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--clr-base-400);
+  padding: 3em;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: var(--fw-400);
+  margin-bottom: 0.8em;
+}
+
+.enfasis {
+    font-weight: var(--fw-700);
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 1em 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--clr-base-500);
+    font-weight: var(--fw-700);
+    background: var(--clr-accent-400);
+}
