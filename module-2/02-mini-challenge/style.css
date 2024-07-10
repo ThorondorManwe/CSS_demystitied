@@ -19,7 +19,7 @@ p {
 
 /* Utility classes */
 .flow-content > * + * {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
 }
 
 /* general styling */
@@ -34,6 +34,20 @@ body {
 h1 {
   font-weight: 400;
 }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: inherit;
+  padding: 0.75em 1.5em;
+  background-color: #59e89c;
+}
+
+/* hero area */
 
 .hero {
   background-image: url(assets/hero.jpg);
