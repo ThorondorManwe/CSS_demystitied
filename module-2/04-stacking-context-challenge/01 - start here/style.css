@@ -148,6 +148,7 @@ header {
 @media (min-width: 40em) {
   header {
     position: sticky;
+    z-index: 1000;
     top: 0;
   }
 }
